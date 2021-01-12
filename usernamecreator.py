@@ -9,7 +9,7 @@ while aprobated == False:
     username = input()
     # Check the number of characters of the introduced username
     if(len(username) < minimunlength):
-        print("Please insert an user name with 6 characters minimun")
+        print("Please insert an user name with ", minimunlength, " characters minimun")
     else:
         print("Success")
         aprobated = True
